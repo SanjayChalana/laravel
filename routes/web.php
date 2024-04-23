@@ -28,10 +28,4 @@ Route::post('logout', [
     UserController::class,
     'logout'
 ]);
-Route::get("admin-profile", function () {
-    return view("frontend.layouts.admin.dashboard-index");
-});
 
-Route::get("blog", function () {
-    return view("frontend.layouts.admin.blog_index");
-});
